@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Financing</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/angular.min.js" type="text/javascript"></script>
+        <script src="app/app.js" type="text/javascript"></script>
+        <script src="app/controller/stockCtrl.js" type="text/javascript"></script>
+    </head>
+    <body ng-app="app">
+        <div ng-controller="stockCtrl">
+            <table class="bordered">
+                <tr>
+                    <td>id</td>
+                    <td>{{data.id}}</td>
+                </tr>
+                <tr>
+                    <td>code</td>
+                    <td>{{data.code}}</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
