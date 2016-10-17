@@ -1,0 +1,20 @@
+{
+  "name": "financing",
+  "version": "1.0.0",
+  "description": "financing",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.6.3",
+    "npm": "^1.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "financing"
+  ],
+  "author": "stephen",
+  "license": "ISC"
+}
